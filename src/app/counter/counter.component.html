@@ -1,1 +1,4 @@
-<p>counter works!</p>
+<button *ngIf="isShow" (click) = "Onincrese()">+</button>
+<span [style]="{background: textColor}"> number: {{number}} </span>
+<!-- <span [style.background]="textColor"> number: {{number}} </span> -->
+<button (click) = "Ondecrease()">-</button>
